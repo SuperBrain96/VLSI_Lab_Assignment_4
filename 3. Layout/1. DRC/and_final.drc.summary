@@ -1,0 +1,164 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sat Sep 10 11:44:08 2016
+Calibre Version:           v2013.4_37.29    Fri Jan 31 15:24:29 PST 2014
+Rule File Pathname:        /home/140102079/_tsmc018.rules_
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            and_final.calibre.db
+Layout Primary Cell:       and_final
+Current Directory:         /home/140102079
+User Name:                 140102079
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      /home/140102079/VLSI_Lab/Assignment_4_06092016/and_final.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       /home/140102079/VLSI_Lab/Assignment_4_06092016/and_final.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER N_WELL .............. TOTAL Original Geometry Count = 3  (3)
+LAYER POLY ................ TOTAL Original Geometry Count = 37 (37)
+LAYER ACTIVE .............. TOTAL Original Geometry Count = 8  (8)
+LAYER P_PLUS_SELECT ....... TOTAL Original Geometry Count = 2  (2)
+LAYER N_PLUS_SELECT ....... TOTAL Original Geometry Count = 2  (2)
+LAYER SILICIDE_BLOCK ...... TOTAL Original Geometry Count = 0  (0)
+LAYER DIFFUSED_RESISTOR ... TOTAL Original Geometry Count = 0  (0)
+LAYER CONTACT_TO_ACTIVE ... TOTAL Original Geometry Count = 16 (16)
+LAYER CAP_TOP_METAL ....... TOTAL Original Geometry Count = 0  (0)
+LAYER VIA5 ................ TOTAL Original Geometry Count = 0  (0)
+LAYER RESLEV .............. TOTAL Original Geometry Count = 0  (0)
+LAYER METAL5 .............. TOTAL Original Geometry Count = 0  (0)
+LAYER CONTACT_TO_POLY ..... TOTAL Original Geometry Count = 6  (6)
+LAYER PADS ................ TOTAL Original Geometry Count = 0  (0)
+LAYER METAL1 .............. TOTAL Original Geometry Count = 30 (36)
+LAYER VIA ................. TOTAL Original Geometry Count = 1  (7)
+LAYER METAL2 .............. TOTAL Original Geometry Count = 4  (10)
+LAYER VIA2 ................ TOTAL Original Geometry Count = 0  (0)
+LAYER METAL3 .............. TOTAL Original Geometry Count = 3  (3)
+LAYER VIA3 ................ TOTAL Original Geometry Count = 0  (0)
+LAYER METAL4 .............. TOTAL Original Geometry Count = 0  (0)
+LAYER VIA4 ................ TOTAL Original Geometry Count = 0  (0)
+LAYER METAL6 .............. TOTAL Original Geometry Count = 0  (0)
+LAYER METAL1.PORT ......... TOTAL Original Geometry Count = 0  (0)
+LAYER METAL2.PORT ......... TOTAL Original Geometry Count = 0  (0)
+LAYER METAL3.PORT ......... TOTAL Original Geometry Count = 0  (0)
+LAYER OVERGLASS ........... TOTAL Original Geometry Count = 0  (0)
+LAYER METAL6.PORT ......... TOTAL Original Geometry Count = 0  (0)
+LAYER METAL5.PORT ......... TOTAL Original Geometry Count = 0  (0)
+LAYER METAL4.PORT ......... TOTAL Original Geometry Count = 0  (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK bad_active_area ...... TOTAL Result Count = 0 (0)
+RULECHECK bad_contact_poly ..... TOTAL Result Count = 0 (0)
+RULECHECK bad_contact_active ... TOTAL Result Count = 0 (0)
+RULECHECK bad_contact_gate ..... TOTAL Result Count = 0 (0)
+RULECHECK bad_via .............. TOTAL Result Count = 0 (0)
+RULECHECK bad_via2 ............. TOTAL Result Count = 0 (0)
+RULECHECK select_overlap ....... TOTAL Result Count = 0 (0)
+RULECHECK bad_nwell ............ TOTAL Result Count = 0 (0)
+RULECHECK bad_psubstrate ....... TOTAL Result Count = 0 (0)
+RULECHECK bad_pgate ............ TOTAL Result Count = 0 (0)
+RULECHECK bad_ngate ............ TOTAL Result Count = 0 (0)
+RULECHECK bad_port ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC1_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC1_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC2_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC2_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC2_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC2_4 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC3_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC3_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC3_2a .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC3_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC3_4 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC3_5 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC4.1p .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.1n .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC4.3p .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.3n .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.4pw ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.4ps ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.4nw ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.4ns ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC4.5np ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC5_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC5_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC5_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC5_4 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC6_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC6_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC6_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC6_4 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC7_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC7_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC7_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC7_4 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC8_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC8_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC8_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC9_1 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC9_2 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC9_3 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC9_4 ............... TOTAL Result Count = 0 (0)
+RULECHECK DRC14_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC14_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC14_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC15_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC15_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC15_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC15_4 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_4 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_5 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_7 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_8 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_9 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_10 ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC20_11 ............. TOTAL Result Count = 0 (0)
+RULECHECK DRC21_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC21_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC21_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC22_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC22_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC22_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC22_4 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC25_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC25_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC25_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC26_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC26_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC26_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC26_4 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC29_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC29_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC29_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC30_1 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC30_2 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC30_3 .............. TOTAL Result Count = 0 (0)
+RULECHECK DRC30_4 .............. TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 112 (130)
+TOTAL DRC RuleChecks Executed:   91
+TOTAL DRC Results Generated:     0 (0)

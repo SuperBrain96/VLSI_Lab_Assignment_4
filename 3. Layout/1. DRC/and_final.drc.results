@@ -1,0 +1,355 @@
+and_final 1000
+bad_active_area
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Active area must be covered by a select
+bad_contact_poly
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to poly must consist of poly, CONTACT_TO_POLY, and METAL1
+bad_contact_active
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to active must consist of active, CONTACT_TO_ACTIVE, and METAL1
+bad_contact_gate
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to poly may not be on gate region.
+bad_via
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via must consist of METAL1, via, and METAL2
+bad_via2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via2 must consist of METAL2, via, and METAL3
+select_overlap
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Overlap of N+ and P+ not allowed
+bad_nwell
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Nwell must have well contact
+bad_psubstrate
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Psubstrate must have a substrate contact
+bad_pgate
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+P-type gate must not be in psubstrate
+bad_ngate
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+N-type gate must not be in nwell
+bad_port
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Port must be completely covered with Metal
+DRC1_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+N-Well width = 12L
+DRC1_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+N-well spacing (different potential) = 18L
+DRC2_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Active area width = 3L
+DRC2_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Active area spacing = 3L
+DRC2_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Source/Drain Active to Well Edge = 6L
+DRC2_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Substrate/Well Contact, Active to Well Edge = 3L
+DRC3_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly width = 2L
+DRC3_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly spacing = 3L	
+DRC3_2a
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly spacing = 4L over Active	
+DRC3_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Gate poly overlap of active = 2.5L
+DRC3_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Active overlap of gate poly = 4L
+DRC3_5
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Field poly to active = 1L
+DRC4.1p
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.1n
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.2
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.3p
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.3n
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.4pw
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.4ps
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.4nw
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.4ns
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC4.5np
+0 0 1 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+DRC5_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to poly size exactly 2L X 2L
+DRC5_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly overlap for contact = 1.5L
+DRC5_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to poly spacing = 4L
+DRC5_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to active space to gate of transistor = 2L
+DRC6_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to active exactly 2L X 2L
+DRC6_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Active overlap for contact = 1.5L
+DRC6_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to active spacing = 4L
+DRC6_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Contact to active space to gate of transistor = 2L
+DRC7_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal1 width = 3L
+DRC7_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal1 spacing = 3L
+DRC7_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal1 overlap of contact to poly or contact to active = 1L
+DRC7_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal1 spacing = 6L if width > 10L
+DRC8_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via size exactly 3L X 3L
+DRC8_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via spacing = 3L
+DRC8_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via overlap by METAL1 = 1L
+DRC9_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal2 width = 3L
+DRC9_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal2 spacing = 4L
+DRC9_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal2 overlap of via = 1L
+DRC9_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal2 spacing = 8L if width > 10L
+DRC14_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via2 size exactly 3L X 3L
+DRC14_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via2 spacing = 3L
+DRC14_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via2 overlap by METAL2 = 1L
+DRC15_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal3 width = 3L
+DRC15_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal3 spacing = 4L
+DRC15_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal3 overlap of via2 = 1L
+DRC15_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal3 spacing = 8L if width > 10L
+DRC20_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block width = 3L
+DRC20_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block spacing = 4L
+DRC20_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block spacing to Contact = 2L
+DRC20_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block spacing to external active = 2L
+DRC20_5
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block spacing to external poly = 2L
+DRC20_7
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly width in Silicide_Block = 5L
+DRC20_8
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly spacing in Silicide_Block spacing = 5L
+DRC20_9
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block overlap of Poly or Active = 2L
+DRC20_10
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Poly or Active overlap of Silicide_Block = 2L
+DRC20_11
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Silicide_Block and Poly spacing in Active = 5L
+DRC21_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via3 size exactly 3L X 3L
+DRC21_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via3 spacing = 3L
+DRC21_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via3 overlap by METAL3 = 1L
+DRC22_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal4 width = 3L
+DRC22_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal4 spacing = 4L
+DRC22_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal4 overlap of via3 = 1L
+DRC22_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal4 spacing = 8L if width > 10L
+DRC25_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via4 size exactly 3L X 3L
+DRC25_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via4 spacing = 3L
+DRC25_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via4 overlap by METAL4 = 1L
+DRC26_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal5 width = 3L
+DRC26_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal5 spacing = 4L
+DRC26_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal5 overlap of via4 = 1L
+DRC26_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal5 spacing = 8L if width > 10L
+DRC29_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via5 size exactly 4L X 4L
+DRC29_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via5 spacing = 4L
+DRC29_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Via5 overlap by METAL5 = 1L
+DRC30_1
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal6 width = 5L
+DRC30_2
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal6 spacing = 5L
+DRC30_3
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal6 overlap of via5 = 2L
+DRC30_4
+0 0 2 Sep 10 11:44:08 2016                     
+Rule File Pathname: /home/140102079/_tsmc018.rules_
+Metal6 spacing = 10L if width > 10L
